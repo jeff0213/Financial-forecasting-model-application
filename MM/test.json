@@ -1,0 +1,18 @@
+{
+  "Fin_BusinessTurnover": 65108940000,
+  "Fin_Direct_costs": 6182350000,
+  "Fin_Indirect_costs": 40310170000,
+  "Fin_ProvisionForDeprec": 63810300,
+  "Fin_DeprecPeriod": 5,
+  "Def_of_BusinessArea": 0.07,
+  "Fin_DiscountFactor": 0.1,
+  "Fin_TotalGrowthIn_General_CompanyMarket": 0.024,
+  "B5": 2,
+  "C2": 0.15,
+  "C3": 5,
+  "C6": 0.08,
+  "D1": 0.25,
+  "D2": 0.07,
+  "D3": 1.1,
+  "D4": 1.2
+}

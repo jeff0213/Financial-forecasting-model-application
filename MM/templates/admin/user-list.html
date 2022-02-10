@@ -1,0 +1,49 @@
+{% extends 'admin/layout.html' %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block page_head %}
+    <section class="breadcrumb">
+        <h1>User</h1>
+    </section>
+{% endblock %}
+
+
+{% block main_content %}
+    <div class="lg:flex lg:-mx-4">
+        <!-- Striped -->
+        <div class="lg:w-1/2 lg:px-4 pt-5 lg:pt-0">
+            <div class="card p-5">
+                <h3>List</h3>
+                <table class="table table_striped mt-3 w-full">
+                    <thead>
+                    <tr>
+                        <th class="text-left uppercase">#</th>
+                        <th class="text-left uppercase">model_name</th>
+                        <th class="text-left uppercase">user_name</th>
+                        <th class="text-left uppercase">count</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in items %}
+                        <tr>
+                            <td>{{ item.id }}</td>
+                            <td>{{ item.model_id }}</td>
+                            <td>{{ item.user_id }}</td>
+                            <td>{{ item.quantity }}</td>
+                        </tr>
+
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block scripts %}
+{% endblock %}
